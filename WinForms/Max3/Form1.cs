@@ -31,7 +31,7 @@ namespace Max3
             if (b < c) Swap(ref b, ref c);
             if (a < b) Swap(ref a, ref b);
 
-            this.lblResult.Text = a.ToString() + b.ToString() + c.ToString();
+            this.lblResult.Text = String.Format("{0}{1}{2}", a, b, c);
         }
 
         private void btnClear_Click(object sender, EventArgs e)
