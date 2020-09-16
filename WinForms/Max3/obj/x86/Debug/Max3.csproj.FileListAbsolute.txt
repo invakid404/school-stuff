@@ -1,9 +1,0 @@
-C:\Users\Student\AppData\Local\Temporary Projects\Max3\bin\Debug\Max3.exe
-C:\Users\Student\AppData\Local\Temporary Projects\Max3\bin\Debug\Max3.pdb
-C:\Users\Student\AppData\Local\Temporary Projects\Max3\obj\x86\Debug\Max3.Form1.resources
-C:\Users\Student\AppData\Local\Temporary Projects\Max3\obj\x86\Debug\Max3.Properties.Resources.resources
-C:\Users\Student\AppData\Local\Temporary Projects\Max3\obj\x86\Debug\Max3.csproj.GenerateResource.Cache
-C:\Users\Student\AppData\Local\Temporary Projects\Max3\obj\x86\Debug\Max3.exe
-C:\Users\Student\AppData\Local\Temporary Projects\Max3\obj\x86\Debug\Max3.pdb
-D:\XIв Цветомир Бонев\WinForms\Max3\obj\x86\Debug\Max3.exe
-D:\XIв Цветомир Бонев\WinForms\Max3\obj\x86\Debug\Max3.pdb
