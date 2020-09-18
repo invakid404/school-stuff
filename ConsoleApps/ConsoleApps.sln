@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessFigures", "ChessFigures\ChessFigures.csproj", "{F1C93EE7-838E-48F9-A11C-747603A78251}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max3", "Max3\Max3.csproj", "{4E408CA4-9E4D-4538-8F12-606AC3141624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort3", "Sort3\Sort3.csproj", "{F17A061F-5694-419C-8FD9-BD4C9519D5BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +17,14 @@ Global
 		{F1C93EE7-838E-48F9-A11C-747603A78251}.Debug|x86.Build.0 = Debug|x86
 		{F1C93EE7-838E-48F9-A11C-747603A78251}.Release|x86.ActiveCfg = Release|x86
 		{F1C93EE7-838E-48F9-A11C-747603A78251}.Release|x86.Build.0 = Release|x86
+		{4E408CA4-9E4D-4538-8F12-606AC3141624}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E408CA4-9E4D-4538-8F12-606AC3141624}.Debug|x86.Build.0 = Debug|Any CPU
+		{4E408CA4-9E4D-4538-8F12-606AC3141624}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E408CA4-9E4D-4538-8F12-606AC3141624}.Release|x86.Build.0 = Release|Any CPU
+		{F17A061F-5694-419C-8FD9-BD4C9519D5BC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F17A061F-5694-419C-8FD9-BD4C9519D5BC}.Debug|x86.Build.0 = Debug|Any CPU
+		{F17A061F-5694-419C-8FD9-BD4C9519D5BC}.Release|x86.ActiveCfg = Release|Any CPU
+		{F17A061F-5694-419C-8FD9-BD4C9519D5BC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
