@@ -1,33 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace ChessFigures
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            var figureName = Console.ReadLine().ToLower();
+            var figureName = Console.ReadLine()?.ToLower();
             var figure = ChessFigureManager.Instance.GetFigure(figureName);
 
-            var figureX = int.Parse(Console.ReadLine());
-            var figureY = int.Parse(Console.ReadLine());
-
-            var figurePos = Tuple.Create(figureX, figureY);
-
-            var targetX = int.Parse(Console.ReadLine());
-            var targetY = int.Parse(Console.ReadLine());
-
-            var targetPos = Tuple.Create(targetX, targetY);
-
-            var deltaX = targetX - figureX;
-            var deltaY = targetY - figureY;
-
+            var figurePos = ReadTuple();
+            var targetPos = ReadTuple();
+            
             Console.WriteLine(figure.Attacks(figurePos, targetPos));
+        }
 
-            Console.ReadKey();
+        private static int ReadInt()
+        {
+            var str = Console.ReadLine();
+            return int.Parse(str ?? "0");
+        }
+
+        private static Tuple<int, int> ReadTuple()
+        {
+            return Tuple.Create(ReadInt(), ReadInt());
         }
     }
 }

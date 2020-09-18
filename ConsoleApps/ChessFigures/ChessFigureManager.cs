@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace ChessFigures
 {
-    class ChessFigureManager
+    internal class ChessFigureManager
     {
-        private static readonly ChessFigureManager instance = new ChessFigureManager();
-
-        private Dictionary<string, ChessFigure> figureInstances = new Dictionary<string, ChessFigure>();
+        private readonly Dictionary<string, ChessFigure> _figureInstances = new Dictionary<string, ChessFigure>();
 
         static ChessFigureManager()
         {
@@ -17,23 +12,18 @@ namespace ChessFigures
 
         private ChessFigureManager()
         {
-            this.figureInstances.Add("king", new KingChessFigure());
-            this.figureInstances.Add("rook", new RookChessFigure());
-            this.figureInstances.Add("knight", new KnightChessFigure());
-            this.figureInstances.Add("queen", new QueenChessFigure());
+            _figureInstances.Add("king", new KingChessFigure());
+            _figureInstances.Add("rook", new RookChessFigure());
+            _figureInstances.Add("knight", new KnightChessFigure());
+            _figureInstances.Add("bishop", new BishopChessFigure());
+            _figureInstances.Add("queen", new QueenChessFigure());
         }
+
+        public static ChessFigureManager Instance { get; } = new ChessFigureManager();
 
         public ChessFigure GetFigure(string name)
         {
-            return this.figureInstances[name];
-        }
-
-        public static ChessFigureManager Instance
-        {
-            get
-            {
-                return instance;
-            }
+            return _figureInstances[name];
         }
     }
 }

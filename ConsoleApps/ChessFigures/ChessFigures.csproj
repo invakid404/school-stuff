@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BishopChessFigure.cs" />
     <Compile Include="ChessFigure.cs" />
     <Compile Include="ChessFigureManager.cs" />
     <Compile Include="QueenChessFigure.cs" />

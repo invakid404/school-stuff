@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace ChessFigures
 {
-    class RookChessFigure : ChessFigure
+    internal class RookChessFigure : ChessFigure
     {
         public override bool Attacks(Tuple<int, int> selfPos, Tuple<int, int> targetPos)
         {
