@@ -11,7 +11,7 @@ namespace ChessFigures
 
             var figurePos = ReadTuple();
             var targetPos = ReadTuple();
-            
+
             Console.WriteLine(figure.Attacks(figurePos, targetPos));
         }
 

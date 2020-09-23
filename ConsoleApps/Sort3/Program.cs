@@ -13,7 +13,7 @@ namespace Sort3
             if (a > b) Swap(ref a, ref b);
             if (b > c) Swap(ref b, ref c);
             if (a > b) Swap(ref a, ref b);
-            
+
             Console.WriteLine($@"{a} {b} {c}");
         }
 

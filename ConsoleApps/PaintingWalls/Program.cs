@@ -2,7 +2,7 @@
 
 namespace PaintingWalls
 {
-    static internal class Program
+    internal static class Program
     {
         public static void Main(string[] args)
         {
@@ -10,7 +10,7 @@ namespace PaintingWalls
             ReadDouble(out var width);
             ReadDouble(out var paintArea);
 
-            var paintBoxAmt = Math.Ceiling((height * width) / paintArea);
+            var paintBoxAmt = Math.Ceiling(height * width / paintArea);
             Console.WriteLine($@"Amount of paint boxes: {paintBoxAmt}");
         }
 
