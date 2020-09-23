@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort3", "Sort3\Sort3.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle", "Circle\Circle.csproj", "{77AAFF4F-1C08-4DDB-A799-505E5AF10199}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintingWalls", "PaintingWalls\PaintingWalls.csproj", "{8A49078D-2AB8-467F-A2A9-990700A934DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,14 @@ Global
 		{77AAFF4F-1C08-4DDB-A799-505E5AF10199}.Release|Any CPU.Build.0 = Release|Any CPU
 		{77AAFF4F-1C08-4DDB-A799-505E5AF10199}.Release|x86.ActiveCfg = Release|Any CPU
 		{77AAFF4F-1C08-4DDB-A799-505E5AF10199}.Release|x86.Build.0 = Release|Any CPU
+		{8A49078D-2AB8-467F-A2A9-990700A934DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A49078D-2AB8-467F-A2A9-990700A934DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A49078D-2AB8-467F-A2A9-990700A934DA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A49078D-2AB8-467F-A2A9-990700A934DA}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A49078D-2AB8-467F-A2A9-990700A934DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A49078D-2AB8-467F-A2A9-990700A934DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A49078D-2AB8-467F-A2A9-990700A934DA}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A49078D-2AB8-467F-A2A9-990700A934DA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
