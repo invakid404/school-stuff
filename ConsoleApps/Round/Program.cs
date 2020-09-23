@@ -8,7 +8,7 @@ namespace Round
 {
     static internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             ReadDouble(out var y);
 
