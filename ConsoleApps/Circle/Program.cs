@@ -10,7 +10,7 @@ namespace Circle
 
             var s = Math.PI * r * r;
             var d = 2 * Math.PI * r;
-            Console.WriteLine($@"Area: ${s}; Circumference: ${d}");
+            Console.WriteLine($@"Area: {s}; Circumference: {d}");
         }
 
         private static void ReadDouble(out double d)
