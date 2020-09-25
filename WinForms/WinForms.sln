@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max3", "Max3\Max3.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speech", "Speech\Speech.csproj", "{BD51A7D4-2DB7-4E79-9CB3-FBCC2A484DEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeech", "TextToSpeech\TextToSpeech.csproj", "{D571F60B-E689-41F7-A224-5FFF35125B69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,14 @@ Global
 		{BD51A7D4-2DB7-4E79-9CB3-FBCC2A484DEE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD51A7D4-2DB7-4E79-9CB3-FBCC2A484DEE}.Release|x86.ActiveCfg = Release|Any CPU
 		{BD51A7D4-2DB7-4E79-9CB3-FBCC2A484DEE}.Release|x86.Build.0 = Release|Any CPU
+		{D571F60B-E689-41F7-A224-5FFF35125B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D571F60B-E689-41F7-A224-5FFF35125B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D571F60B-E689-41F7-A224-5FFF35125B69}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D571F60B-E689-41F7-A224-5FFF35125B69}.Debug|x86.Build.0 = Debug|Any CPU
+		{D571F60B-E689-41F7-A224-5FFF35125B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D571F60B-E689-41F7-A224-5FFF35125B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D571F60B-E689-41F7-A224-5FFF35125B69}.Release|x86.ActiveCfg = Release|Any CPU
+		{D571F60B-E689-41F7-A224-5FFF35125B69}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
