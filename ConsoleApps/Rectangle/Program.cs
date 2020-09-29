@@ -6,17 +6,17 @@ namespace Rectangle
     {
         public static void Main(string[] args)
         {
-            ReadInt(out var w);
-            ReadInt(out var h);
+            ReadDouble(out var w);
+            ReadDouble(out var h);
 
             var perimeter = 2 * (w + h);
             var area = w * h;
-            Console.WriteLine($@"Perimeter: {perimeter}, Area: {area}.");
+            Console.WriteLine($@"Perimeter: {perimeter:0.##}, Area: {area:0.##}.");
         }
 
-        private static void ReadInt(out int v)
+        private static void ReadDouble(out double d)
         {
-            while (!int.TryParse(Console.ReadLine(), out v))
+            while (!double.TryParse(Console.ReadLine(), out d))
             {
             }
         }
