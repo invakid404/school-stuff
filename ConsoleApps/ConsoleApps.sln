@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetalRod", "MetalRod\MetalR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square3", "Square3\Square3.csproj", "{6ABAA1B9-4CD1-49E2-870B-340C559B7082}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "Rectangle\Rectangle.csproj", "{701FE20D-8BE0-421A-8BD1-6AF9FF336E34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,14 @@ Global
 		{6ABAA1B9-4CD1-49E2-870B-340C559B7082}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6ABAA1B9-4CD1-49E2-870B-340C559B7082}.Release|x86.ActiveCfg = Release|Any CPU
 		{6ABAA1B9-4CD1-49E2-870B-340C559B7082}.Release|x86.Build.0 = Release|Any CPU
+		{701FE20D-8BE0-421A-8BD1-6AF9FF336E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701FE20D-8BE0-421A-8BD1-6AF9FF336E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701FE20D-8BE0-421A-8BD1-6AF9FF336E34}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{701FE20D-8BE0-421A-8BD1-6AF9FF336E34}.Debug|x86.Build.0 = Debug|Any CPU
+		{701FE20D-8BE0-421A-8BD1-6AF9FF336E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701FE20D-8BE0-421A-8BD1-6AF9FF336E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701FE20D-8BE0-421A-8BD1-6AF9FF336E34}.Release|x86.ActiveCfg = Release|Any CPU
+		{701FE20D-8BE0-421A-8BD1-6AF9FF336E34}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
