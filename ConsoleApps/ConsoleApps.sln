@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOrOdd", "EvenOrOdd\Even
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleBy35", "DivisibleBy35\DivisibleBy35.csproj", "{B4E5EC65-E32C-4646-B481-75F93155E881}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdDigit", "ThirdDigit\ThirdDigit.csproj", "{6B7A1466-B35C-4F2C-A66B-E2B0AB662B08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,14 @@ Global
 		{B4E5EC65-E32C-4646-B481-75F93155E881}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B4E5EC65-E32C-4646-B481-75F93155E881}.Release|x86.ActiveCfg = Release|Any CPU
 		{B4E5EC65-E32C-4646-B481-75F93155E881}.Release|x86.Build.0 = Release|Any CPU
+		{6B7A1466-B35C-4F2C-A66B-E2B0AB662B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7A1466-B35C-4F2C-A66B-E2B0AB662B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7A1466-B35C-4F2C-A66B-E2B0AB662B08}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B7A1466-B35C-4F2C-A66B-E2B0AB662B08}.Debug|x86.Build.0 = Debug|Any CPU
+		{6B7A1466-B35C-4F2C-A66B-E2B0AB662B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7A1466-B35C-4F2C-A66B-E2B0AB662B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7A1466-B35C-4F2C-A66B-E2B0AB662B08}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B7A1466-B35C-4F2C-A66B-E2B0AB662B08}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
