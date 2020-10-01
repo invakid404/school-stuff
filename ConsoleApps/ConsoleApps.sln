@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trapezoid", "Trapezoid\Trap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightOnMoon", "WeightOnMoon\WeightOnMoon.csproj", "{87B5DF04-703B-4AB0-BD0F-24C3FBB5AEB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InCircle", "InCircle\InCircle.csproj", "{5F6653E8-134A-461F-B313-E998E61EB87D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,14 @@ Global
 		{87B5DF04-703B-4AB0-BD0F-24C3FBB5AEB5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{87B5DF04-703B-4AB0-BD0F-24C3FBB5AEB5}.Release|x86.ActiveCfg = Release|Any CPU
 		{87B5DF04-703B-4AB0-BD0F-24C3FBB5AEB5}.Release|x86.Build.0 = Release|Any CPU
+		{5F6653E8-134A-461F-B313-E998E61EB87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6653E8-134A-461F-B313-E998E61EB87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6653E8-134A-461F-B313-E998E61EB87D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F6653E8-134A-461F-B313-E998E61EB87D}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F6653E8-134A-461F-B313-E998E61EB87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6653E8-134A-461F-B313-E998E61EB87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6653E8-134A-461F-B313-E998E61EB87D}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F6653E8-134A-461F-B313-E998E61EB87D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
