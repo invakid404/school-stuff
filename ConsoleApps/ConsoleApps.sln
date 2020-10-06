@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotMax", "NotMax\NotMax.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtLeastOne", "AtLeastOne\AtLeastOne.csproj", "{19DEC610-1997-4FB5-96B4-266EDFCB0061}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Both", "Both\Both.csproj", "{A5857713-57BB-4D86-A8B7-619BC51EDC78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,14 @@ Global
 		{19DEC610-1997-4FB5-96B4-266EDFCB0061}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19DEC610-1997-4FB5-96B4-266EDFCB0061}.Release|x86.ActiveCfg = Release|Any CPU
 		{19DEC610-1997-4FB5-96B4-266EDFCB0061}.Release|x86.Build.0 = Release|Any CPU
+		{A5857713-57BB-4D86-A8B7-619BC51EDC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5857713-57BB-4D86-A8B7-619BC51EDC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5857713-57BB-4D86-A8B7-619BC51EDC78}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A5857713-57BB-4D86-A8B7-619BC51EDC78}.Debug|x86.Build.0 = Debug|Any CPU
+		{A5857713-57BB-4D86-A8B7-619BC51EDC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5857713-57BB-4D86-A8B7-619BC51EDC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5857713-57BB-4D86-A8B7-619BC51EDC78}.Release|x86.ActiveCfg = Release|Any CPU
+		{A5857713-57BB-4D86-A8B7-619BC51EDC78}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
