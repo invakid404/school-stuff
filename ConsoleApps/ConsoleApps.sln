@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleBy5", "DivisibleBy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialZeros", "FactorialZeros\FactorialZeros.csproj", "{A02704A9-6F8F-430E-A35A-073B96F23D8C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KontrolnaRabota1", "KontrolnaRabota1", "{2A926139-BC14-4D66-B6E3-329C97136E00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -278,6 +280,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62E4A0EF-FF70-40E2-9612-A65FD11B0E8D} = {2A926139-BC14-4D66-B6E3-329C97136E00}
+		{76E69DF0-A5A5-49EF-8925-0A3B6CE00D6E} = {2A926139-BC14-4D66-B6E3-329C97136E00}
+		{A02704A9-6F8F-430E-A35A-073B96F23D8C} = {2A926139-BC14-4D66-B6E3-329C97136E00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5232573-15BF-43B1-9117-7C23AF609B30}
