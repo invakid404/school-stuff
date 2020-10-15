@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeOfLastDigit", "CubeOfLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equal3", "Equal3\Equal3.csproj", "{7B4F22FB-0C3E-45D9-9FCE-DE8CB8E2DDD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraction3", "Fraction3\Fraction3.csproj", "{F9B2A2D5-7E8C-40E8-AEC4-BE0515BD4396}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -365,6 +367,14 @@ Global
 		{7B4F22FB-0C3E-45D9-9FCE-DE8CB8E2DDD7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7B4F22FB-0C3E-45D9-9FCE-DE8CB8E2DDD7}.Release|x86.ActiveCfg = Release|Any CPU
 		{7B4F22FB-0C3E-45D9-9FCE-DE8CB8E2DDD7}.Release|x86.Build.0 = Release|Any CPU
+		{F9B2A2D5-7E8C-40E8-AEC4-BE0515BD4396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B2A2D5-7E8C-40E8-AEC4-BE0515BD4396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B2A2D5-7E8C-40E8-AEC4-BE0515BD4396}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F9B2A2D5-7E8C-40E8-AEC4-BE0515BD4396}.Debug|x86.Build.0 = Debug|Any CPU
+		{F9B2A2D5-7E8C-40E8-AEC4-BE0515BD4396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B2A2D5-7E8C-40E8-AEC4-BE0515BD4396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B2A2D5-7E8C-40E8-AEC4-BE0515BD4396}.Release|x86.ActiveCfg = Release|Any CPU
+		{F9B2A2D5-7E8C-40E8-AEC4-BE0515BD4396}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
