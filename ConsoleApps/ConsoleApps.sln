@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleBy5", "DivisibleBy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageDigits", "AverageDigits\AverageDigits.csproj", "{7A879FD7-BC1B-4C40-916E-6C089FB5152A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtLeastOnePositive", "AtLeastOnePositive\AtLeastOnePositive.csproj", "{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -335,6 +337,14 @@ Global
 		{7A879FD7-BC1B-4C40-916E-6C089FB5152A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A879FD7-BC1B-4C40-916E-6C089FB5152A}.Release|x86.ActiveCfg = Release|Any CPU
 		{7A879FD7-BC1B-4C40-916E-6C089FB5152A}.Release|x86.Build.0 = Release|Any CPU
+		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Debug|x86.Build.0 = Debug|Any CPU
+		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
