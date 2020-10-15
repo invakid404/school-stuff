@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FahrenheitToCelsius", "Fahr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inequality", "Inequality\Inequality.csproj", "{01DAF3DB-8972-4AF5-9DA6-183F166436F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euro", "Euro\Euro.csproj", "{93B5A80E-4DA8-497E-8143-1174041BB751}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +267,14 @@ Global
 		{01DAF3DB-8972-4AF5-9DA6-183F166436F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{01DAF3DB-8972-4AF5-9DA6-183F166436F2}.Release|x86.ActiveCfg = Release|Any CPU
 		{01DAF3DB-8972-4AF5-9DA6-183F166436F2}.Release|x86.Build.0 = Release|Any CPU
+		{93B5A80E-4DA8-497E-8143-1174041BB751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B5A80E-4DA8-497E-8143-1174041BB751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B5A80E-4DA8-497E-8143-1174041BB751}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93B5A80E-4DA8-497E-8143-1174041BB751}.Debug|x86.Build.0 = Debug|Any CPU
+		{93B5A80E-4DA8-497E-8143-1174041BB751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B5A80E-4DA8-497E-8143-1174041BB751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B5A80E-4DA8-497E-8143-1174041BB751}.Release|x86.ActiveCfg = Release|Any CPU
+		{93B5A80E-4DA8-497E-8143-1174041BB751}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
