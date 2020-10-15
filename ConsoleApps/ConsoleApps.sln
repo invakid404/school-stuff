@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageDigits", "AverageDig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtLeastOnePositive", "AtLeastOnePositive\AtLeastOnePositive.csproj", "{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeOfLastDigit", "CubeOfLastDigit\CubeOfLastDigit.csproj", "{84003925-17C1-49B9-A3E2-BBB21C3A029F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,14 @@ Global
 		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Release|x86.ActiveCfg = Release|Any CPU
 		{2E84E5BA-2B96-4E9C-BE9F-FA51D06C0E31}.Release|x86.Build.0 = Release|Any CPU
+		{84003925-17C1-49B9-A3E2-BBB21C3A029F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84003925-17C1-49B9-A3E2-BBB21C3A029F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84003925-17C1-49B9-A3E2-BBB21C3A029F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{84003925-17C1-49B9-A3E2-BBB21C3A029F}.Debug|x86.Build.0 = Debug|Any CPU
+		{84003925-17C1-49B9-A3E2-BBB21C3A029F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84003925-17C1-49B9-A3E2-BBB21C3A029F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84003925-17C1-49B9-A3E2-BBB21C3A029F}.Release|x86.ActiveCfg = Release|Any CPU
+		{84003925-17C1-49B9-A3E2-BBB21C3A029F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
