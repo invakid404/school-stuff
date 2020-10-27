@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABDivisible", "ABDivisible\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsN", "DigitsN\DigitsN.csproj", "{B6506ADE-F3F0-4127-A3F8-ADD81085D8CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumDigits", "SumDigits\SumDigits.csproj", "{14E5B994-C5D4-426B-9478-C20DA4852463}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -475,6 +477,14 @@ Global
 		{B6506ADE-F3F0-4127-A3F8-ADD81085D8CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B6506ADE-F3F0-4127-A3F8-ADD81085D8CE}.Release|x86.ActiveCfg = Release|Any CPU
 		{B6506ADE-F3F0-4127-A3F8-ADD81085D8CE}.Release|x86.Build.0 = Release|Any CPU
+		{14E5B994-C5D4-426B-9478-C20DA4852463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E5B994-C5D4-426B-9478-C20DA4852463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E5B994-C5D4-426B-9478-C20DA4852463}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{14E5B994-C5D4-426B-9478-C20DA4852463}.Debug|x86.Build.0 = Debug|Any CPU
+		{14E5B994-C5D4-426B-9478-C20DA4852463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E5B994-C5D4-426B-9478-C20DA4852463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E5B994-C5D4-426B-9478-C20DA4852463}.Release|x86.ActiveCfg = Release|Any CPU
+		{14E5B994-C5D4-426B-9478-C20DA4852463}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
