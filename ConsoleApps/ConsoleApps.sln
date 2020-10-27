@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumN", "SumN\SumN.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evens", "Evens\Evens.csproj", "{A635FE60-832F-4816-97A3-CF6FAA3E0BFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPrime", "IsPrime\IsPrime.csproj", "{185B22B4-9D0F-41D7-9717-54BD85B45BC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -445,6 +447,14 @@ Global
 		{A635FE60-832F-4816-97A3-CF6FAA3E0BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A635FE60-832F-4816-97A3-CF6FAA3E0BFC}.Release|x86.ActiveCfg = Release|Any CPU
 		{A635FE60-832F-4816-97A3-CF6FAA3E0BFC}.Release|x86.Build.0 = Release|Any CPU
+		{185B22B4-9D0F-41D7-9717-54BD85B45BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185B22B4-9D0F-41D7-9717-54BD85B45BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185B22B4-9D0F-41D7-9717-54BD85B45BC0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{185B22B4-9D0F-41D7-9717-54BD85B45BC0}.Debug|x86.Build.0 = Debug|Any CPU
+		{185B22B4-9D0F-41D7-9717-54BD85B45BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185B22B4-9D0F-41D7-9717-54BD85B45BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185B22B4-9D0F-41D7-9717-54BD85B45BC0}.Release|x86.ActiveCfg = Release|Any CPU
+		{185B22B4-9D0F-41D7-9717-54BD85B45BC0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
