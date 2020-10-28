@@ -22,22 +22,36 @@ namespace Divisors
             Clear();
             var n = int.Parse(txtNum.Text);
 
+            // Used to store the complementary divisors
             var st = new Stack<int>();
-            
+
             var hi = (int) Math.Sqrt(n);
-            for (var i = 1; i <= hi; ++i)
+            
+            // Check for divisors less than the square root
+            for (var i = 1; i < hi; ++i)
             {
                 if (n % i != 0) continue;
-                
-                lstRes.Items.Add(i.ToString());
 
-                var other = n / i;
-                if (i != other)
+                lstRes.Items.Add(i.ToString());
+                st.Push(n / i);
+            }
+
+            // Handle square root separately
+            if (n % hi == 0)
+            {
+                lstRes.Items.Add(hi.ToString());
+                
+                var other = n / hi;
+                
+                // If number is a perfect square, these will match
+                // Make sure we don't repeat a divisor
+                if (other != hi)
                 {
-                    st.Push(n / i);
+                    lstRes.Items.Add(other.ToString());
                 }
             }
 
+            // Add the complementary divisors in reverse order
             while (st.Count > 0)
             {
                 lstRes.Items.Add(st.Pop().ToString());
