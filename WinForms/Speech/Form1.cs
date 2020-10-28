@@ -18,13 +18,13 @@ namespace KIUR
         {
             var msg = "Hello my friend!";
 
-            this.synthesizer.SpeakAsync(msg);
+            synthesizer.SpeakAsync(msg);
             MessageBox.Show(msg);
         }
 
         private void btnGoodbye_Click(object sender, EventArgs e)
         {
-            this.synthesizer.Speak("Goodbye my friend!");
+            synthesizer.Speak("Goodbye my friend!");
 
             Application.Exit();
         }
@@ -35,12 +35,9 @@ namespace KIUR
             var amt = 100;
 
             var awr = new StringBuilder(amt * word.Length);
-            for (var i = 0; i < amt; ++i)
-            {
-                awr.Append(word);
-            }
+            for (var i = 0; i < amt; ++i) awr.Append(word);
 
-            this.synthesizer.Speak(awr.ToString());
+            synthesizer.Speak(awr.ToString());
         }
     }
 }

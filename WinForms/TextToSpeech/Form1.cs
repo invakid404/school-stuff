@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Speech.Synthesis;
 using System.Windows.Forms;
 
@@ -11,44 +6,44 @@ namespace TextToSpeech
 {
     public partial class Form1 : Form
     {
+        private readonly SpeechSynthesizer synthesizer = new SpeechSynthesizer();
+
         public Form1()
         {
             InitializeComponent();
         }
 
-        private readonly SpeechSynthesizer synthesizer = new SpeechSynthesizer();
-
         private void btnStart_Click(object sender, EventArgs e)
         {
-            var message = this.txtMessage.Text;
+            var message = txtMessage.Text;
             if (message.Length <= 0)
             {
                 MessageBox.Show("Please input a message!");
                 return;
             }
 
-            this.Cancel();
-            this.synthesizer.SpeakAsync(this.txtMessage.Text);
+            Cancel();
+            synthesizer.SpeakAsync(txtMessage.Text);
         }
 
         private void btnPause_Click(object sender, EventArgs e)
         {
-            this.synthesizer.Pause();
+            synthesizer.Pause();
         }
 
         private void btnResume_Click(object sender, EventArgs e)
         {
-            this.synthesizer.Resume();
+            synthesizer.Resume();
         }
 
         private void btnStop_Click(object sender, EventArgs e)
         {
-            this.Cancel();
+            Cancel();
         }
 
         private void Cancel()
         {
-            this.synthesizer.SpeakAsyncCancelAll();
+            synthesizer.SpeakAsyncCancelAll();
         }
     }
 }
