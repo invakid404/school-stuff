@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speech", "Speech\Speech.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToSpeech", "TextToSpeech\TextToSpeech.csproj", "{D571F60B-E689-41F7-A224-5FFF35125B69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euclid", "Euclid\Euclid.csproj", "{1DCF5776-2811-4AF5-968C-61D7E128126B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divisors", "Divisors\Divisors.csproj", "{ACAE2B2B-76CD-4385-9ECA-68099308720C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,22 @@ Global
 		{D571F60B-E689-41F7-A224-5FFF35125B69}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D571F60B-E689-41F7-A224-5FFF35125B69}.Release|x86.ActiveCfg = Release|Any CPU
 		{D571F60B-E689-41F7-A224-5FFF35125B69}.Release|x86.Build.0 = Release|Any CPU
+		{1DCF5776-2811-4AF5-968C-61D7E128126B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCF5776-2811-4AF5-968C-61D7E128126B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCF5776-2811-4AF5-968C-61D7E128126B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1DCF5776-2811-4AF5-968C-61D7E128126B}.Debug|x86.Build.0 = Debug|Any CPU
+		{1DCF5776-2811-4AF5-968C-61D7E128126B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCF5776-2811-4AF5-968C-61D7E128126B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCF5776-2811-4AF5-968C-61D7E128126B}.Release|x86.ActiveCfg = Release|Any CPU
+		{1DCF5776-2811-4AF5-968C-61D7E128126B}.Release|x86.Build.0 = Release|Any CPU
+		{ACAE2B2B-76CD-4385-9ECA-68099308720C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACAE2B2B-76CD-4385-9ECA-68099308720C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACAE2B2B-76CD-4385-9ECA-68099308720C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ACAE2B2B-76CD-4385-9ECA-68099308720C}.Debug|x86.Build.0 = Debug|Any CPU
+		{ACAE2B2B-76CD-4385-9ECA-68099308720C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACAE2B2B-76CD-4385-9ECA-68099308720C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACAE2B2B-76CD-4385-9ECA-68099308720C}.Release|x86.ActiveCfg = Release|Any CPU
+		{ACAE2B2B-76CD-4385-9ECA-68099308720C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
